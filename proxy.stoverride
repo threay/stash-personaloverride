@@ -7,3 +7,11 @@ rules:
   - DOMAIN-KEYWORD,patreon,Proxy
   - DOMAIN-KEYWORD,f95zone,Proxy
   - DOMAIN-KEYWORD,rsshub,Proxy
+
+http:
+  mitm:
+    - "zodgame.xyz"
+    - "kemono.party"
+    - "patreon.com"
+    - "f95zone.to"
+    - "rsshub.app"
