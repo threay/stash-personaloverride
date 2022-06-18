@@ -2,16 +2,8 @@ name: 自定义额外规则
 desc: 在黑名单模式下设定部分域名走代理
 
 rules:
-  - DOMAIN-KEYWORD,zodgame,Proxy
-  - DOMAIN-KEYWORD,kemono,Proxy
-  - DOMAIN-KEYWORD,patreon,Proxy
-  - DOMAIN-KEYWORD,f95zone,Proxy
-  - DOMAIN-KEYWORD,rsshub,Proxy
-
-http:
-  mitm:
-    - "zodgame.xyz"
-    - "kemono.party"
-    - "patreon.com"
-    - "f95zone.to"
-    - "rsshub.app"
+  - DOMAIN-KEYWORD,zodgame,♻️ 手动切换
+  - DOMAIN-KEYWORD,kemono,♻️ 手动切换
+  - DOMAIN-KEYWORD,patreon,♻️ 手动切换
+  - DOMAIN-KEYWORD,f95zone,♻️ 手动切换
+  - DOMAIN-KEYWORD,rsshub,♻️ 手动切换
