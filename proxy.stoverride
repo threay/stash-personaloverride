@@ -1,10 +1,9 @@
-#SUBSCRIBED https://raw.githubusercontent.com/threay/stash-personaloverride/master/proxy.stoverride
 name: 自定义额外规则
 desc: 在黑名单模式下设定部分域名走代理
 
 rules:
-    - 'DOMAIN-KEYWORD,zodgame,♻️ 手动切换'
-    - 'DOMAIN-KEYWORD,kemono,♻️ 手动切换'
-    - 'DOMAIN-KEYWORD,patreon,♻️ 手动切换'
-    - 'DOMAIN-KEYWORD,f95zone,♻️ 手动切换'
-    - 'DOMAIN-KEYWORD,rsshub,♻️ 手动切换'
+  - DOMAIN-KEYWORD,zodgame,♻️ 手动切换
+  - DOMAIN-KEYWORD,kemono,♻️ 手动切换
+  - DOMAIN-KEYWORD,patreon,♻️ 手动切换
+  - DOMAIN-KEYWORD,f95zone,♻️ 手动切换
+  - DOMAIN-KEYWORD,rsshub,♻️ 手动切换
