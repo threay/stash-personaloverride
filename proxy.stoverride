@@ -9,3 +9,4 @@ rules:
   - DOMAIN-KEYWORD,rsshub,♻️ 手动切换
   - DOMAIN-KEYWORD,obsidian,♻️ 手动切换
   - DOMAIN-KEYWORD,hanime,♻️ 手动切换
+  - DST-PORT,22,DIRECT
