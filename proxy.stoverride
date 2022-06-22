@@ -2,11 +2,11 @@ name: 自定义额外规则
 desc: 1.在黑名单模式下设定部分域名走代理; 2.其他根据需用定义的规则; 3.该规则和自用CFW预处理设定基本保持一致
 
 rules:
-  - DOMAIN-KEYWORD,zodgame,♻️ 手动切换
-  - DOMAIN-KEYWORD,kemono,♻️ 手动切换
-  - DOMAIN-KEYWORD,patreon,♻️ 手动切换
-  - DOMAIN-KEYWORD,f95zone,♻️ 手动切换
-  - DOMAIN-KEYWORD,rsshub,♻️ 手动切换
-  - DOMAIN-KEYWORD,obsidian,♻️ 手动切换
-  - DOMAIN-KEYWORD,hanime,♻️ 手动切换
+  - DOMAIN-KEYWORD,zodgame,🚀 节点选择
+  - DOMAIN-KEYWORD,kemono,🚀 节点选择
+  - DOMAIN-KEYWORD,patreon,🚀 节点选择
+  - DOMAIN-KEYWORD,f95zone,🚀 节点选择
+  - DOMAIN-KEYWORD,rsshub,🚀 节点选择
+  - DOMAIN-KEYWORD,obsidian,🚀 节点选择
+  - DOMAIN-KEYWORD,hanime,🚀 节点选择
   - DST-PORT,22,DIRECT
