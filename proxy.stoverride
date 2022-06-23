@@ -10,3 +10,4 @@ rules:
   - DOMAIN-KEYWORD,obsidian,🚀 节点选择
   - DOMAIN-KEYWORD,hanime,🚀 节点选择
   - DST-PORT,22,DIRECT
+  - DOMAIN-KEYWORD,emby,🚀 节点选择
