@@ -12,3 +12,5 @@ rules:
   - DST-PORT,22,DIRECT
   - DOMAIN-KEYWORD,emby,🚀 节点选择
   - DOMAIN-KEYWORD,notion,🚀 节点选择
+  - DOMAIN-KEYWORD,virtamate.com,🚀 节点选择
+  
