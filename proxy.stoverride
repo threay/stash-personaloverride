@@ -4,13 +4,13 @@ desc: 1.在黑名单模式下设定部分域名走代理; 2.其他根据需用�
 rules:
   - DOMAIN-KEYWORD,zodgame,🚀 节点选择
   - DOMAIN-KEYWORD,kemono,🚀 节点选择
-  - DOMAIN-KEYWORD,patreon,🚀 节点选择
   - DOMAIN-KEYWORD,f95zone,🚀 节点选择
   - DOMAIN-KEYWORD,rsshub,🚀 节点选择
   - DOMAIN-KEYWORD,obsidian,🚀 节点选择
-  - DOMAIN-KEYWORD,hanime,🚀 节点选择
   - DST-PORT,22,DIRECT
   - DOMAIN-KEYWORD,emby,🚀 节点选择
-  - DOMAIN-KEYWORD,notion,🚀 节点选择
-  - DOMAIN-KEYWORD,virtamate.com,🚀 节点选择
+  - DOMAIN-KEYWORD,virtamate,🚀 节点选择
+  - DOMAIN-KEYWORD,loggly,🚀 节点选择
+  - DOMAIN-KEYWORD,segment,🚀 节点选择
+  - DOMAIN-KEYWORD,intercom,🚀 节点选择
   
