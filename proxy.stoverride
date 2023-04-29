@@ -26,7 +26,8 @@ dns:
     - 223.5.5.5
     - 8.8.8.8
     - 10.10.0.21
-  fallback: []
+  fallback:
+    - 10.10.2.53
   fake-ip-filter:
     - +.stun.*.*
     - +.stun.*.*.*
