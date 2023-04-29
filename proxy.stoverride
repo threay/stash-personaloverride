@@ -21,11 +21,21 @@ rules:
 dns:
   enable: true
   enhanced-mode: fake-ip
-  default-nameserver:
-    - 10.10.0.21
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - quic://dns.adguard.com:853
-    - doq://test.dns.nextdns.io:853
-    - system # 使用 iOS 系统 DNS
+    - 114.114.114.114
+    - 223.5.5.5
+    - 8.8.8.8
+    - 10.10.0.21
+  fallback: []
+  fake-ip-filter:
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - +.stun.*.*.*.*.*
+    - "*.n.n.srv.nintendo.net"
+    - +.stun.playstation.net
+    - xbox.*.*.microsoft.com
+    - "*.*.xboxlive.com"
+    - "*.msftncsi.com"
+    - "*.msftconnecttest.com"
+    - WORKGROUP
