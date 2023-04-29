@@ -23,3 +23,9 @@ dns:
   enhanced-mode: fake-ip
   default-nameserver:
     - 10.10.0.21
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  - quic://dns.adguard.com:853
+  - doq://test.dns.nextdns.io:853
+  - system # 使用 iOS 系统 DNS
