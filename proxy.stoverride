@@ -20,8 +20,4 @@ rules:
   - DOMAIN-KEYWORD,loveslab,🚀 节点选择
 dns:
   default-nameserver:
-    - system
-    - 114.114.114.114
-    - 223.5.5.5
-    - 8.8.8.8
     - 10.10.0.21
