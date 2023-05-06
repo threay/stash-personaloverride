@@ -18,6 +18,8 @@ rules:
   - DOMAIN-KEYWORD,railway,🚀 节点选择
   - DOMAIN-KEYWORD,nexus,🚀 节点选择
   - DOMAIN-KEYWORD,loveslab,🚀 节点选择
+  - DOMAIN-SUFFIX,applovin.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,applvin.com,🛑 广告拦截
 dns:
   enable: true
   enhanced-mode: fake-ip
